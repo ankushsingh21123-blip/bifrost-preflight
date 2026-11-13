@@ -1,0 +1,8 @@
+Bifrost Preflight
+Copyright 2026 Ankush Singh
+
+AI-assisted checker and tests. No independent human security audit is claimed.
+
+Includes Bifrost schema and example/configuration material from maximhq/bifrost,
+licensed under Apache License 2.0. See UPSTREAM-LICENSE and README.md for sources.
+No upstream endorsement is implied.
