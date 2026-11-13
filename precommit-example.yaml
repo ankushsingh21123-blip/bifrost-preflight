@@ -1,0 +1,11 @@
+# Add to a private checkout's existing .pre-commit-config.yaml after review.
+# Assumes this directory is placed at tools/bifrost-preflight in that checkout.
+repos:
+- repo: local
+  hooks:
+  - id: bifrost-config-preflight
+    name: Bifrost config preflight (selected static rules)
+    language: system
+    entry: python3 tools/bifrost-preflight/precommit_entry.py
+    files: '(^|/)config\.json$'
+    pass_filenames: true
