@@ -1,0 +1,19 @@
+{
+  "providers": {
+    "openai": {
+      "keys": [
+        {
+          "value": "DEMO_NOT_A_REAL_KEY"
+        }
+      ]
+    }
+  },
+  "client": {
+    "enable_logging": true,
+    "logging_headers": [
+      "Authorization"
+    ],
+    "retain_content_in_object_storage": true,
+    "enforce_auth_on_inference": false
+  }
+}
