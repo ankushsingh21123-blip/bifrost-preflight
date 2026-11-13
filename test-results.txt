@@ -1,0 +1,44 @@
+test_array_config (test_preflight.Checks) ... ok
+test_cli_duplicate_no_echo (test_preflight.Checks) ... ok
+test_cli_invalid_no_echo (test_preflight.Checks) ... ok
+test_cli_status (test_preflight.Checks) ... ok
+test_content_disabled (test_preflight.Checks) ... ok
+test_content_logs (test_preflight.Checks) ... ok
+test_direct_keys (test_preflight.Checks) ... ok
+test_empty_env_not_reference (test_preflight.Checks) ... ok
+test_governance_and_legacy_bypasses_both_reported (test_preflight.Checks) ... ok
+test_governance_bypass_local_also_flagged (test_preflight.Checks) ... ok
+test_governance_bypass_overrides_client_true (test_preflight.Checks) ... ok
+test_harmless_header (test_preflight.Checks) ... ok
+test_header_case (test_preflight.Checks) ... ok
+test_hidden_storage (test_preflight.Checks) ... ok
+test_hosted_explicit_auth (test_preflight.Checks) ... ok
+test_inline_provider (test_preflight.Checks) ... ok
+test_legacy_auth_supported (test_preflight.Checks) ... ok
+test_legacy_bypass (test_preflight.Checks) ... ok
+test_legacy_only_bypass (test_preflight.Checks) ... ok
+test_local_not_hosted (test_preflight.Checks) ... ok
+test_malformed_client (test_preflight.Checks) ... ok
+test_malformed_provider (test_preflight.Checks) ... ok
+test_missing_hosted_auth (test_preflight.Checks) ... ok
+test_no_mutation (test_preflight.Checks) ... ok
+test_no_plain_admin (test_preflight.Checks) ... ok
+test_object_env_reference (test_preflight.Checks) ... ok
+test_override (test_preflight.Checks) ... ok
+test_override_false_does_not_flag_bypass (test_preflight.Checks) ... ok
+test_reference_config_schema (test_preflight.Checks) ... ok
+test_route_bypass (test_preflight.Checks) ... ok
+test_sanitize_path (test_preflight.Checks) ... ok
+test_schema_error_redacted (test_preflight.Checks) ... ok
+test_unknown_provider_name_never_echoed (test_preflight.Checks) ... ok
+test_vault_ref (test_preflight.Checks) ... ok
+test_defined_statuses (test_hook.HookTests) ... ok
+test_empty (test_hook.HookTests) ... ok
+test_mixed_signal_then_good (test_hook.HookTests) ... ok
+test_signal_and_unexpected_statuses_fail_closed (test_hook.HookTests) ... ok
+test_spawn_failure (test_hook.HookTests) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 1.903s
+
+OK
