@@ -1,0 +1,62 @@
+{
+  "tool": "Bifrost Preflight - private prototype",
+  "profile": "hosted-review",
+  "schema_sha256": "1075667f9c017190d96ff0feb92a0300d57e0ee6210549f9f0ff26ee564ab5e2",
+  "status": "review_required",
+  "findings": [
+    {
+      "code": "SCHEMA",
+      "severity": "error",
+      "location": "/providers/*/keys/0",
+      "message": "Does not match the pinned Bifrost schema. Inspect this location locally; values are omitted."
+    },
+    {
+      "code": "SCHEMA",
+      "severity": "error",
+      "location": "/providers/*/keys/0",
+      "message": "Does not match the pinned Bifrost schema. Inspect this location locally; values are omitted."
+    },
+    {
+      "code": "INLINE_PROVIDER_KEY",
+      "severity": "error",
+      "location": "/providers/*[0]/keys/0/value",
+      "message": "Provider key is inline. Use a supported environment/vault reference before sharing config."
+    },
+    {
+      "code": "CONTENT_LOGGING",
+      "severity": "warning",
+      "location": "/client",
+      "message": "Logging is enabled without explicitly disabling content storage. Prompts and outputs may be stored."
+    },
+    {
+      "code": "HIDDEN_CONTENT_RETENTION",
+      "severity": "warning",
+      "location": "/client/retain_content_in_object_storage",
+      "message": "Content may still be retained in object storage even when dashboard content logging is disabled."
+    },
+    {
+      "code": "SENSITIVE_HEADER_LOGGING",
+      "severity": "error",
+      "location": "/client/logging_headers",
+      "message": "Logging headers include a known credential/cookie header."
+    },
+    {
+      "code": "DASHBOARD_AUTH_UNCONFIRMED",
+      "severity": "error",
+      "location": "/governance/auth_config",
+      "message": "Hosted profile requires explicit dashboard authentication in this file. Database, SSO and reverse-proxy state are not inspected."
+    },
+    {
+      "code": "INFERENCE_AUTH_UNCONFIRMED",
+      "severity": "error",
+      "location": "/client/enforce_auth_on_inference",
+      "message": "Hosted profile requires explicit inference authentication. Omitted values depend on deployment history."
+    }
+  ],
+  "limitations": [
+    "Offline static checks only; not a security certification.",
+    "No runtime, database, environment variables, reverse proxy or TLS inspection.",
+    "Checks only selected known credential locations; not a general secret scanner.",
+    "No provider requests, API credits, configuration edits or uploads."
+  ]
+}
