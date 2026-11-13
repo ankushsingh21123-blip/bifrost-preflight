@@ -1,0 +1,1 @@
+39 combined checker/hook tests passed. Hook coverage: empty, defined statuses 0/1/2, signals -9/-15, unexpected 3/127/None/False, mixed signal+good, spawn failure. Real pre-commit 4.6.2 good-only=0; mixed-good/bypass=1. Disposable local repository only. See test-results.txt and hook-integration-result.json.
