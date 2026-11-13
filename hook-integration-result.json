@@ -1,0 +1,10 @@
+{
+  "runner": "pre-commit 4.6.2",
+  "good_exit": 0,
+  "mixed_exit": 1,
+  "good_hook_passed": true,
+  "mixed_hook_failed": true,
+  "bypass_reported": true,
+  "temporary_repository_only": true,
+  "network_model_calls": 0
+}
