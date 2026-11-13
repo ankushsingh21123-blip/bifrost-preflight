@@ -70,7 +70,7 @@ Read on 12 November 2026:
 - Existing Mocker feature: https://docs.getbifrost.ai/features/plugins/mocker
 - Existing plugin configuration: https://docs.getbifrost.ai/deployment-guides/config-json/plugins
 
-The schema snapshot has SHA256 `1075667f9c017190d96ff0feb92a0300d57e0ee6210549f9f0ff26ee564ab5e2`. Preserve `UPSTREAM-LICENSE` for upstream Bifrost material. Bifrost is Apache-2.0 licensed. The checker source is newly prepared with AI assistance; it is not a copied Bifrost gateway or evidence that Ankush implemented it independently. The checker is licensed under Apache License 2.0; see LICENSE. Upstream attribution and licence are preserved in UPSTREAM-LICENSE.
+The original schema snapshot has SHA256 `1075667f9c017190d96ff0feb92a0300d57e0ee6210549f9f0ff26ee564ab5e2`. GitHub's editor added a final newline on publication, so the public file has SHA256 `7665f739974e3a50cea7348338ba568e0b139469da834032ce8e5f50b8e5a558`; the parsed JSON is identical. `manifest.json` records the published file hashes. Preserve `UPSTREAM-LICENSE` for upstream Bifrost material. Bifrost is Apache-2.0 licensed. The checker source is newly prepared with AI assistance; it is not a copied Bifrost gateway or evidence that Ankush implemented it independently. The checker is licensed under Apache License 2.0; see LICENSE. Upstream attribution and licence are preserved in UPSTREAM-LICENSE.
 
 ## Additional AI-assisted review correction
 
