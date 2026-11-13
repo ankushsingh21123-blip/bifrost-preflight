@@ -1,0 +1,10 @@
+{
+  "binary_version": "v2.5.1",
+  "provider_requests": 0,
+  "api_keys_used": 0,
+  "binding": "127.0.0.1",
+  "config_findings": [],
+  "health_status": 200,
+  "health_body": "{\"components\":{\"db_pings\":\"ok\"},\"status\":\"ok\"}\n",
+  "process_stopped": true
+}
