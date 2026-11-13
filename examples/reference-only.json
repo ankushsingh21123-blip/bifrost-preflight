@@ -1,0 +1,30 @@
+{
+  "providers": {
+    "openai": {
+      "keys": [
+        {
+          "name": "local-reference",
+          "value": "env.OPENAI_API_KEY",
+          "models": [
+            "gpt-4o-mini"
+          ],
+          "weight": 1.0
+        }
+      ]
+    }
+  },
+  "client": {
+    "disable_content_logging": true,
+    "enforce_auth_on_inference": true
+  },
+  "governance": {
+    "auth_config": {
+      "is_enabled": true,
+      "admin_username": "local-admin",
+      "admin_password": "env.BIFROST_ADMIN_PASSWORD"
+    }
+  },
+  "config_store": {
+    "enabled": false
+  }
+}
